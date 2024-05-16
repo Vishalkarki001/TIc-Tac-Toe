@@ -1,0 +1,43 @@
+*{
+margin:0;
+padding:0;
+Border-size:border-box;
+}
+.container{
+height:100vh;
+width:100vw;
+
+display:flex;
+justify-content:center;
+align-items:center;
+background-image: linear-gradient(to bottom right, #00C0FF, #4218B8);
+}
+.signbox{
+height:80%;
+border-radius:30px;
+box-shadow:10px 10px 20px 10px black;
+background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3);
+
+}
+.box{
+padding-top:20px;
+padding-left:15px;
+text-align:start;
+font-size:1.5rem;
+}
+button{
+margin-top:2.5rem;
+margin-left:11rem;
+font-size:1.3rem;
+transition:all 0.5s 0s ;
+}
+button:active{
+background-color:rgb(100 250 50);
+
+
+}
+h3{
+padding-top:1.5rem;
+text-align:center;
+}
+

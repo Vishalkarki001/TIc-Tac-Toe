@@ -1,0 +1,72 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.container{
+height:100vh;
+width:100vw;
+border-box:1px solid black;
+background-image: linear-gradient(to bottom, #b21ec4, #9416b9, #750fac, #550aa0, #5a0792);
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.box{
+height:450px;
+width:420px;
+background-color:white;
+
+padding:40px;
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:50px;
+border-radius:30px;
+box-shadow:1px 1px 40px 12px black;
+background:linear-gradient(to bottom,aqua,white);
+
+}
+.box img{
+background-size:cover;
+height:200px;
+width:200px;
+
+transition:all 0.6s 0;
+border-radius:50%;
+
+}
+h2{
+text-align:center;
+white-space:nowrap;
+font-family:Verdana;
+
+margin:auto;
+animation:text 5s infinite;
+}
+@keyframes text{
+from{width:0}
+to{width:100%}
+}
+.icon{
+display:flex;
+justify-content:space-between;
+}
+#insta{
+font-size:3rem;
+padding-right:80px;
+color:rgb(200 0 130);
+}
+#twi{
+font-size:3rem;
+padding-right:50px;
+color:blue;
+}
+#fb{
+font-size:3rem;
+padding-left:20px;
+color:rgb(20 20 200);
+}
+img:hover{
+transform:scale(1.3);
+}
